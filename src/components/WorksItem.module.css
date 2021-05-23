@@ -1,0 +1,107 @@
+.works_item {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.works_item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.works_info {
+  border-spacing: 10px;
+}
+
+.works_info caption {
+  caption-side: top;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+.works_info th {
+  vertical-align: top;
+  text-align: right;
+}
+
+.preview_block {
+  position: relative;
+}
+
+.links_block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.links_block a {
+  margin: 40px;
+}
+
+.adaptability_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.adaptability_list li {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mobile_disabled {
+  background-image: url(../img/icons/phone_lightgray_24dp.svg);
+}
+
+.mobile_enabled {
+  background-image: url(../img/icons/phone_black_24dp.svg);
+}
+
+.tablet_disabled {
+  background-image: url(../img/icons/tablet_lightgray_24dp.svg);
+}
+
+.tablet_enabled {
+  background-image: url(../img/icons/tablet_black_24dp.svg);
+}
+
+.desktop_disabled {
+  background-image: url(../img/icons/desktop_lightgray_24dp.svg);
+}
+
+.desktop_enabled {
+  background-image: url(../img/icons/desktop_black_24dp.svg);
+}
+
+@media (min-width: 800px) {
+  .works_item {
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .works_item:hover {
+    box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
+  }
+
+  .works_item:hover .links_block {
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .works_info caption {
+    margin-top: 5px;
+  }
+
+  .links_block {
+    opacity: 0;
+    transition: 0.5s;
+  }
+}

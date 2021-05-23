@@ -1,0 +1,66 @@
+[
+  {
+    "id": 0,
+    "name": "Magic store",
+    "previews":[
+      "./img/magic_mobile.png",
+      "./img/magic_tablet.png"
+    ],
+    "url": {
+      "work": "https://utavegu.github.io/beads-and-rings",
+      "source": "https://github.com/utavegu/beads-and-rings"
+    },
+    "description": "Интернет-магазин колец из титана, изделий из бисера, пирографии, чайных домиков и прочих рукодельных штучек. Один из лучших моих проектов, который демонстрирует большинство моих навыков. Взаимодействия с бэкэндом тут нет, так как того пожелал заказчик, но примеры, как я работаю с сервером и асинхронным кодом можно посмотреть в других моих работах на Гитхабе.",
+    "year": "2021",
+    "stack": "React, Material-UI",
+    "adaptability": {
+      "mobile": true,
+      "tablet": true,
+      "desktop": true
+    },
+    "retinization": "Нет"
+  },
+  {
+    "id": 1,
+    "name": "Virtual tours",
+    "previews":[
+      "./img/vr_mobile.png",
+      "./img/vr_tablet.png"
+    ],
+    "url": {
+      "work": "https://utavegu.github.io/virtual-tours",
+      "source": "https://github.com/utavegu/virtual-tours"
+    },
+    "description": "Виртуальные туры и видео 360, портфолио. Внимание, дизайн сайта ещё в разработке!",
+    "year": "2021",
+    "stack": "React",
+    "adaptability": {
+      "mobile": true,
+      "tablet": true,
+      "desktop": true
+    },
+    "retinization": "Нет"
+  },
+  {
+    "id": 2,
+    "name": "Abojur",
+    "previews":[
+      "./img/abojur_mobile.png",
+      "./img/abojur_tablet.png"
+    ],
+    "url": {
+      "work": "https://utavegu.github.io/abojur-landing",
+      "source": "https://github.com/utavegu/abojur-landing"
+    },
+
+    "description": "Pet-проект (лэндинг, одна страница). Студия дизайнерского текстиля. Данный проект демонстрирует мои навыки вёрстки и умение решать различные бизнес-задачи. Кроме того - умение работать без фреймворков (и создавать с нуля элементы интерфейса, без использования чужих готовых решений), навыки работы с макетом, автоматизации и оптимизации производительности. За макет и дизайн спасибо HTML-академии, но что касается кода, то каждая его строчка - моих рук дело.",
+    "year": "2020",
+    "stack": "HTML, CSS, JavaScript, LESS, БЭМ, Gulp",
+    "adaptability": {
+      "mobile": false,
+      "tablet": false,
+      "desktop": true
+    },
+    "retinization": "@3x"
+  }
+]
