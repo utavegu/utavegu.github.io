@@ -1,17 +1,14 @@
 import React from 'react';
 import s from './Regalia.module.css';
+import regaliaData from '../data/regalia.json';
+import RegaliaItem from './RegaliaItem';
 
 export default function Regalia() {
   return (
-    <section>
+    <section className={s.regalia}>
       <h2>Регалии</h2>
       <ul>
-        <li>
-          <a href="./img/html-css-1.pdf">
-            Сертификат
-            {/* Галерея картинок в квадратном контейнере с обджект-фитом */}
-          </a>
-        </li>
+        {regaliaData.map(regalia => <RegaliaItem regalia={regalia} key={regalia.id} />)}
       </ul>
     </section>
   )

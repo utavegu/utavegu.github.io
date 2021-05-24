@@ -1,0 +1,21 @@
+.regalia h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  margin-top: 85px;
+}
+
+.regalia ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (min-width: 1250px) {
+  .regalia ul {
+    justify-content: space-between;
+  }
+}

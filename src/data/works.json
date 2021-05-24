@@ -3,8 +3,8 @@
     "id": 0,
     "name": "Magic store",
     "previews":[
-      "./img/magic_mobile.png",
-      "./img/magic_tablet.png"
+      "./img/works/magic_mobile.png",
+      "./img/works/magic_tablet.png"
     ],
     "url": {
       "work": "https://utavegu.github.io/beads-and-rings",
@@ -24,8 +24,8 @@
     "id": 1,
     "name": "Virtual tours",
     "previews":[
-      "./img/vr_mobile.png",
-      "./img/vr_tablet.png"
+      "./img/works/vr_mobile.png",
+      "./img/works/vr_tablet.png"
     ],
     "url": {
       "work": "https://utavegu.github.io/virtual-tours",
@@ -45,8 +45,8 @@
     "id": 2,
     "name": "Abojur",
     "previews":[
-      "./img/abojur_mobile.png",
-      "./img/abojur_tablet.png"
+      "./img/works/abojur_mobile.png",
+      "./img/works/abojur_tablet.png"
     ],
     "url": {
       "work": "https://utavegu.github.io/abojur-landing",

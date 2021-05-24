@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "HTML & CSS - 1",
+    "preview": "./img/regalia/layout-1_preview.png",
+    "url": "./pdf/html-css-1.pdf"
+  },
+  {
+    "id": 1,
+    "name": "HTML & CSS - 2",
+    "preview": "./img/regalia/layout-2_preview.png",
+    "url": "./pdf/html-css-2.pdf"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript - 1",
+    "preview": "./img/regalia/js-1_preview.png",
+    "url": "./pdf/js-1.pdf"
+  },
+  {
+    "id": 3,
+    "name": "React & Redux",
+    "preview": "./img/regalia/ra_preview.png",
+    "url": "./pdf/ra.pdf"
+  },
+  {
+    "id": 4,
+    "name": "Рекомендательное письмо",
+    "preview": "./img/regalia/recommendation_preview.png",
+    "url": "./pdf/recommendation.pdf"
+  },
+  {
+    "id": 5,
+    "name": "Диплом",
+    "preview": "./img/regalia/diploma_preview.jpg",
+    "url": "./img/regalia/diploma.jpg"
+  }
+]
